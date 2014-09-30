@@ -24,6 +24,8 @@ Route::get('/', 'HomeController@showWelcome');
 
 Route::get('login', 'UserController@getIndex');
 
+Route::get('register', 'UserController@registerClient');
+
 /*Route::get('fdf_add_template(fdf_document, newpage, filename, template, rename)e', function () {
    return View::make('template'); 
 });*/

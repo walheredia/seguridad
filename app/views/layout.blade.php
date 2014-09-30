@@ -30,6 +30,7 @@
 	  		 <ul class="nav navbar-nav">
 	  		 	<li><a href="{{ URL::asset('') }}">Inicio</a></li>
 	  		 	<li><a href="{{ URL::asset('login') }}">Ingresar</a></li>
+	  		 	<li><a href="{{ URL::asset('register') }}">Registrarme</a></li>
 	  		 </ul>
 	  		 <ul class="nav navbar-nav navbar-right">
 	  		 	<li class="dropdown">
@@ -41,8 +42,6 @@
 		    </ul>
 	  	</div>
 	</nav>
-
-
 
 
 	<!-- Nav tabs 
